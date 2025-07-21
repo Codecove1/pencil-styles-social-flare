@@ -21,10 +21,11 @@ const buttonVariants = cva(
         glass: "bg-background/10 backdrop-blur-md border border-foreground/10 text-foreground hover:bg-background/20",
       },
       size: {
-        default: "h-10 px-4 py-2",
-        sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
-        icon: "h-10 w-10",
+        default: "h-8 px-3 py-1.5 text-xs sm:h-10 sm:px-4 sm:py-2 sm:text-sm",
+        sm: "h-7 px-2 py-1 text-xs sm:h-9 sm:px-3 sm:rounded-md",
+        lg: "h-10 px-6 py-2 text-sm sm:h-11 sm:px-8 sm:text-base lg:px-12 lg:text-lg",
+        icon: "h-8 w-8 sm:h-10 sm:w-10",
+        responsive: "h-8 px-3 py-1.5 text-xs sm:h-10 sm:px-4 sm:py-2 sm:text-sm md:h-11 md:px-6 md:text-base lg:h-12 lg:px-8 lg:text-lg",
       },
     },
     defaultVariants: {
